@@ -29,9 +29,7 @@ Then choose **Customer** and then click on **Done**
 
 The partitions should look like these:
 
-![Change Partitions_6](./images/Change Partitions_6.png)
-
-![Change Partitions_7](./images/Change Partitions_7.png)
+<img src="./images/Change Partitions_9.png" alt="Change Partitions_9" style="zoom:75%;" />
 
 You can choose the size of the partitions to fit the needs of your deployment.
 
