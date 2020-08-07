@@ -21,17 +21,17 @@ Recommended partition scheme (can be change to fit your needs)
 
 Go to **SYSTEM** > Installation Destination
 
-<img src="C:\Users\agomez\Pictures\Hardening\Change Partitions.png" alt="Change Partitions" style="zoom:75%;" />
+<img src="./images/Change Partitions.png" alt="Change Partitions" style="zoom:75%;" />
 
 Then choose **Customer** and then click on **Done**
 
-<img src="C:\Users\agomez\Pictures\Hardening\Change Partitions_8.png" alt="Change Partitions_8" style="zoom:75%;" />
+<img src="./images/Change Partitions_8.png" alt="Change Partitions_8" style="zoom:75%;" />
 
 The partitions should look like these:
 
-![Change Partitions_6](C:\Users\agomez\Pictures\Hardening\Change Partitions_6.png)
+![Change Partitions_6](./images/Change Partitions_6.png)
 
-![Change Partitions_7](C:\Users\agomez\Pictures\Hardening\Change Partitions_7.png)
+![Change Partitions_7](./images/Change Partitions_7.png)
 
 You can choose the size of the partitions to fit the needs of your deployment.
 
@@ -41,7 +41,7 @@ After choosing your partition, click on **Done**
 
 Go to **SYSTEM** > Security Policy
 
-<img src="C:\Users\agomez\Pictures\Hardening\Sec_Options_3.png" alt="Sec_Options_3" style="zoom:75%;" />
+<img src="./images/Sec_Options_3.png" alt="Sec_Options_3" style="zoom:75%;" />
 
 Now choose 
 
@@ -49,17 +49,17 @@ Now choose
 2. Click to enable
 3. Click on **Select Profile**
 
-<img src="C:\Users\agomez\Pictures\Hardening\Sec_Options_4.png" alt="Sec_Options_4" style="zoom:75%;" />
+<img src="./images/Sec_Options_4.png" alt="Sec_Options_4" style="zoom:75%;" />
 
 No errors should appear in the dialog message, only info messages.
 
-<img src="C:\Users\agomez\Pictures\Hardening\Sec_Options_5.png" alt="Sec_Options_5" style="zoom:75%;" />
+<img src="./images/Sec_Options_5.png" alt="Sec_Options_5" style="zoom:75%;" />
 
 If looks like the above image, then click on **Done**
 
 Then you can continue with **Begin Installation**.
 
-<img src="C:\Users\agomez\Pictures\Hardening\Sec_Options_7.png" alt="Sec_Options_7" style="zoom:75%;" />
+<img src="./images/Sec_Options_7.png" alt="Sec_Options_7" style="zoom:75%;" />
 
 ## Partition information
 
@@ -67,12 +67,12 @@ After reboot check the partition information
 
 > lsblk
 
-![lsblk](C:\Users\agomez\Pictures\Hardening\lsblk.png)
+![lsblk](./images/lsblk.png)
 
 
 > df -Th
 
-![df_Th](C:\Users\agomez\Pictures\Hardening\df_Th.png)
+![df_Th](./images/df_Th.png)
 
 
 ## Test the hardening
