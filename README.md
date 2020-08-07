@@ -5,16 +5,18 @@
 
 Recommended partition scheme (can be change to fit your needs)
 
-/			          	-  20 GB
-/boot  		    	-  	1GB
-/var   		     	-  20 GB
-/var/log 	    	 -   5 GB
-/var/tmp 	   	 -   5 GB
-/var/log/audit 	-   5 GB
-/home 		 		- 10 GB
-/tmp 		 			- 10 GB
-swap		 			 - 4 GB
-/opt		  			- 10 GB  (Optional, if required)
+|Partition  | Size |
+|--|--|
+|/	  | 20 GB |
+|/boot    | 1GB |
+|/var   | 20 GB |
+|/var/log  | 5 GB |
+|/var/tmp  | 5 GB |
+|/var/log/audit  | 5 GB |
+|/home   | 10 GB |
+|/tmp | 10 GB |
+| swap	 | 4 GB |
+| /opt	 | 10 GB (Optional)| 
 
 
 Go to **SYSTEM** > Installation Destination
@@ -68,12 +70,9 @@ After reboot check the partition information
 ![lsblk](C:\Users\agomez\Pictures\Hardening\lsblk.png)
 
 
-
 > df -Th
 
 ![df_Th](C:\Users\agomez\Pictures\Hardening\df_Th.png)
-
-
 
 
 ## Test the hardening
