@@ -81,14 +81,16 @@ After reboot check the partition information
 
 Now you can test the hardening, the following will create a `report.hmtl` file
 
-> oscap xccdf eval  --fetch-remote-resources --profile xccdf_org.ssgproject.content_profile_ospp  --results-arf arf.xml  --report report.html  /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
-
+```bash
+oscap xccdf eval  --fetch-remote-resources --profile xccdf_org.ssgproject.content_profile_ospp  --results-arf arf.xml  --report report.html  /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
+```
 Now, check the **report.html** file
 
 If you see any error in the report you can go and see the information related to the error or you can remediate adding the option to the command.
 
-> oscap xccdf eval  --fetch-remote-resources --remediate --profile xccdf_org.ssgproject.content_profile_ospp  --results-arf arf.xml  --report report_fixed.html  /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
-
+```bash
+oscap xccdf eval  --fetch-remote-resources --remediate --profile xccdf_org.ssgproject.content_profile_ospp  --results-arf arf.xml  --report report_fixed.html  /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
+```
 
 Now, check the **report_fixed.html** file
 
